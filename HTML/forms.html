@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal</legend>
+        <label for="Username">Name :</label>
+        <input id="Username" /><br /><br />
+        <label for="e">Email :</label>
+        <input id="e" /><br /><br />
+        <label for="pass">Password :</label>
+        <input id="pass" /><br /><br />
+        <label for="dob">DOB :</label>
+        <input id="dob" /><br /><br />
+        <label for="no">Number :</label>
+        <input id="no" /><br /><br />
+        <label for="age">Age :</label>
+        <input id="age" /><br /><br />
+        <button>Submit</button><br /><br />
+        <label for="gen">Gender :</label>
+        <input type="radio" name="gen" value="male" />Male
+        <input type="radio" name="gen" value="female" />Female
+        <input type="radio" name="gen" value="others" />Others <br /><br />
+        <label for="skills">Skills</label>
+        <input type="checkbox" name="Skills" value="HTML" />HTML
+        <input type="checkbox" name="Skills" value="CSS" />CSS
+        <input type="checkbox" name="Skills" value="JS" />JS
+        <input type="checkbox" name="Skills" value="REACT" />REACT <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional info</legend>
+        <label for="">States</label>
+        <select name="States" id="" multiple>
+          <optgroup label="South India">
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+          </optgroup>
+          <br /><br />
+
+          <optgroup label="North India">
+            <option value="Bihar">Bihar</option>
+            <option value="Andra">Andra</option>
+            <option value="Chandigar">Chandigarh</option>
+          </optgroup>
+        </select>
+        <br /><br />
+
+        <label for="">Comments</label>
+        <textarea name="" rows="10" cols="10" id=""></textarea>
+      </fieldset>
+      <input type="search" />
+      <input type="datetime-local" />
+      <input type="week" />
+      <input type="month" />
+      <input type="color" />
+      <input type="range" />
+      <input type="file" />
+      <input type="url" />
+    </form>
+  </body>
+</html>
