@@ -1,0 +1,13 @@
+h3{
+  background-color: blue ;
+  color: beige;
+  border: 8px solid goldenrod;
+  height: 60px;
+  width: 200px;
+}
+
+p{
+  border: solid;
+  color: green;
+  
+}

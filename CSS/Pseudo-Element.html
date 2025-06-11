@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter{
+        color: red;
+      }
+      p::first-line{
+        background-color: black;
+        color: white;
+      }
+      p::before{
+        content: "Hi";
+      }
+      p::after{
+        content: "Bye";
+      }
+
+      p::selection{
+        background-color: black;
+        color: greenyellow;
+      }
+
+ul li::marker{
+  content: "🍎";
+  content: "🥭";
+  content: "🍏";
+}
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, adipisci
+      architecto? Minus expedita unde tenetur, nam in accusamus culpa eius
+      minima? Quaerat sit non, assumenda eum rerum provident maiores. Facilis.
+    </p>
+
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Green Apple</li>
+    </ul>
+  </body>
+</html>
