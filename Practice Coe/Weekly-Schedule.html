@@ -8,13 +8,14 @@
     <style>
       .head {
         border: 2px solid black;
-        color: red;
+        color: red; 
       }
       #Row1 th{
         font-size: 10px;
         color: aqua;
         background-color: rgba(19, 15, 15, 0.9);
         border: 10px solid red;
+        
       }
 
       .body {
@@ -25,16 +26,22 @@
       #foot {
         background-color: red;
       }
+      table,td{
+        border: solid;
+        border-collapse: separate;
+        border-spacing: 10px;
+      }
+      
 
     </style>
   </head>
   <body>
     <h1 class="head"><center>WEEKLY SCHEDULE</center></h1>
-    <table>
+    <center><table >
      <thead>
        <tr id="Row1">
-       <th>
-        <h2><center>MONDAY - FRIDAY</center></h2>
+       <th colspan="2">
+        <h2>MONDAY - FRIDAY</h2>
        </th>
       </tr>
      </thead>
@@ -81,11 +88,11 @@
         </tr>
       </tbody>
 
-      <tfoot id="foot">
-        <td>
+      <tfoot id="foot" >
+        <td colspan="2">
           <center><b>*****THE END*****</b></center>
         </td>
       </tfoot>
-    </table>
+    </table></center>
   </body>
 </html>
