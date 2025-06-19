@@ -1,0 +1,1 @@
+console.log("Hello Mini World From External")
